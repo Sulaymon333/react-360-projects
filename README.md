@@ -8,7 +8,7 @@ The following projects are included in this repository:
 
 -   **Virtual Turku City Center** - [deployed site](http://virtualturkucitycenter.surge.sh/)
 
--   **Virtual Turku City Center** - [deployed site](http://virtualcryptodashboard.surge.sh/)
+-   **Virtual Crypto Compare Dashboard** - [deployed site](http://virtualcryptodashboard.surge.sh/)
 
 ## Tech Stack
 
