@@ -8,6 +8,8 @@ The following projects are included in this repository:
 
 -   **Virtual Turku City Center** - [deployed site](http://virtualturkucitycenter.surge.sh/)
 
+-   **Virtual Turku City Center** - [deployed site](http://virtualcryptodashboard.surge.sh/)
+
 ## Tech Stack
 
 -   React-360
