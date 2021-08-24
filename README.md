@@ -1,6 +1,6 @@
 # VR projects using react-360
 
-This repository contains all my react-360 projects using
+This is the final project for Highway-to-Code (H2C) programme orgnaized by the Turku University of Applied Sciences, Finland. This repository contains all my react-360 projects using th technologies listed in the tech stack section below.
 
 The following projects are included in this repository:
 
