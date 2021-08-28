@@ -2,6 +2,7 @@ import React from 'react';
 import { AppRegistry, asset, Environment, NativeModules, StyleSheet, Text, View } from 'react-360';
 import InfoButton from './components/InfoButton';
 import Promo from './components/Promo';
+import Events from './components/Events';
 import Beach from './components/Beach';
 
 const SCENES = ['Promo', 'Events', 'Skiing'];
@@ -15,7 +16,7 @@ class Scene extends React.Component {
         Environment.setBackgroundImage(asset('castle-main-bg.jpeg'), { rotatetTransform: [{ rotateY: '180deg' }] });
     }
 
-    clickMedia() {
+    clearMedia() {
         Environment.clearBackground();
     }
 
@@ -29,6 +30,8 @@ class Scene extends React.Component {
         let selection;
         if (scene === 'Promo') {
             selection = <Promo />;
+        } else if (scene === 'Events') {
+            selection = <Events />;
         } else if (scene === 'Beach') {
             selection = <Beach />;
         }
